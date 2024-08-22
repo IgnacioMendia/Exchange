@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exchange</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <header class="headerNav navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid navbar">
+        <img src="./img/logo.png" alt="Logo" class="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbarList" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="../index.html"><i
+                class="fas fa-columns navbarIcon"></i>Tablero</a>
+            <a class="nav-link" href="./market.html"><i class="fas fa-poll navbarIcon"></i>Mercado</a>
+            <a class="nav-link" href="./trade.html"><i class="far fa-handshake navbarIcon"></i>Pricing</a>
+            <a class="nav-link" href="./transactions.html"><i
+                class="fas fa-search-dollar navbarIcon"></i>Transacciones</a>
+          </div>
+        </div>
+        <a href="./pages/userProfile.html"><img src="../img/user.png" alt="Logo" class="user"></a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="userProfile">
+    <div>
+      <h3>Perfil de usuario</h3>
+    </div>
+
+    <div>
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" id="name">
+      </div>
+      <div class="form-group">
+        <label for="lastName">Apellido</label>
+        <input type="text" id="lastName">
+      </div>
+      <div class="form-group">
+        <label for="dni">D.N.I</label>
+        <input type="text" id="dni">
+      </div>
+    </div>
+
+    <div>
+      <div class="form-group">
+        <label for="direction">Dirección</label>
+        <input type="text" id="direction">
+      </div>
+      <div class="form-group">
+        <label for="province">Provincia</label>
+        <input type="text" id="province">
+      </div>
+      <div class="form-group">
+        <label for="city">Localidad</label>
+        <input type="text" id="city">
+      </div>
+    </div>
+
+    <div>
+      <div class="form-group">
+        <label for="personType">Tipo de persona</label>
+        <input type="text" id="personType">
+      </div>
+      <div class="form-group">
+        <label for="identificationTaxes">Cuit/Cuil</label>
+        <input type="text" id="identificationTaxes">
+      </div>
+      <div class="form-group">
+        <label for="taxesCategory">Categoría frente a impuestos</label>
+        <input type="text" id="taxesCategory">
+      </div>
+    </div>
+
+    <div class="divBtnUser">
+      <button class="btnUser">Guardar</button>
+    </div>
+  </section>
+
+
+
+  <section class="footer">
+    <footer>
+      <div class="footer-section">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168881864256!2d-58.384145325163!3d-34.60373445749748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1722004195700!5m2!1ses-419!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="footer-section">
+        <form action="#" method="post">
+          <input type="text" name="nombre" placeholder="Nombre" required>
+          <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      <div class="footer-section">
+        <ul>
+          <li><a href="../index.html">Tablero</a></li>
+          <li><a href="./market.html">Mercado</a></li>
+          <li><a href="./trade.html">Intercambio</a></li>
+          <li><a href="./transactions.html">Transacciones</a></li>
+        </ul>
+      </div>
+    </footer>
+  </section>
+</body>
+
+</html>
